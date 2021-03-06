@@ -1,0 +1,41 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+
+code, span.tag {
+  font-family: monospace;
+  background-color: lightyellow;
+}
+
+span.tag::before {
+  content: "<";
+}
+span.tag::after {
+  content: ">";
+}
+
+table {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 750px;
+}
+
+table > caption {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+th {
+  color: blue;
+}
+
+th, td {
+  border-bottom: 1px solid black;
+  padding: 0.5em;
+}
+
+td:nth-child(-n+2) {
+  text-align: center;
+}
